@@ -1,9 +1,18 @@
 <template>
   <div id="footer">
   	<ul class="footer-menu">
-  		<li class='home'><router-link to='/header'><img src="static/images/home.png"></router-link></li>
-  		<li class='edit'><router-link to='/edit'><img src="static/images/edit.png"></router-link></li>
-  		<li class='personal'><router-link to='/person'><img src="static/images/personal-center.png"></router-link></li>
+  		<li class='home'><router-link to='/header'>
+  			<img src="static/images/news.png">	
+  			<p class='nav-new'>校内新闻</p>
+  		</router-link></li>
+  		<li class='edit'><router-link to='/edit'>
+  			<img src="static/images/edit.png">
+  			<p class='nav-new'>我的发表</p>
+  		</router-link></li>
+  		<li class='personal'><router-link to='/person'>
+  			<img src="static/images/personal-center.png">
+  			<p class='nav-new'>个人</p>
+  		</router-link></li>
   	</ul>
   </div>
 </template>
@@ -31,7 +40,7 @@ export default {
 		text-decoration: none;
 	}
 	#footer{
-		height:.8rem;
+		height:1.2rem;
 		width: 100%;
 		background: #fff;
 		position: fixed;
@@ -51,7 +60,16 @@ export default {
 
 	}
 	#footer .footer-menu li img{
-		width: .6rem;
-		height: .6rem;
+		width: .5rem;
+		height: .5rem;
+
+	}
+	#footer .nav-new{
+		font-size:0.1rem;
+		margin-bottom: 0.2rem;
+		/*position: absolute;*/
+		margin-top: -0.1rem;
+		color:rgba(0,0,0,0.8);
+
 	}
 </style>

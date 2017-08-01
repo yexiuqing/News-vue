@@ -5,10 +5,15 @@ import first from '@/components/home/First'
 import focus from '@/components/home/Focus'
 import program from '@/components/home/Program'
 import footer from '@/components/Footer'
+// import boutique from '@/components/edit/Boutique'
 import edit from '@/components/edit/Edit'
 import person from '@/components/person/Person'
 import user from '@/components/person/User'
 import newlist from '@/components/home/Newlist'
+import set from '@/components/person/Setting'
+import reg from '@/components/person/Reg'
+
+
 
 
 
@@ -20,6 +25,10 @@ export default new Router({
       path: '/footer',
       component:footer
     },
+    // {
+    //   path: '/boutique',
+    //   component:boutique
+    // },
     {
       path: '/edit',
       component:edit
@@ -56,6 +65,14 @@ export default new Router({
       name:'newlist', 
       path: "/newlist/:contentId",
       component:newlist
+    },
+    {
+      path:'/set',
+      component:set
+    },
+    {
+      path:'/reg',
+      component:reg
     }
     // {
     //   path: '/header',

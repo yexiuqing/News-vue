@@ -1,14 +1,14 @@
 <template>
 <div id="person">
 	<div class="user">
-		<img class="logo" src="static/images/user.png">
+		<router-link to='/user'><img class="logo" src="static/images/user.png">
 		<!-- <div class="name-level" > -->
-		<span class="nickname">u_20170727_01</span>
+		<span class="nickname">游客</span></router-link>
 			<!-- <img class="level" src="static/images/xin.png"> -->
 			
 		<!-- </div> -->
-		<span class="u-set"><router-link to='/user'>&gt</router-link></span>
-		<img class="setting" src="static/images/setting.png">
+		<!-- <span class="u-set">&gt</span> -->
+		<router-link to='/set'><img class="setting" src="static/images/setting.png"></router-link>
 	</div>
 	<ul class="u-content">
 		<li class="u-score">
@@ -38,7 +38,7 @@
 		</li>
 		<li class="u-detail">
 			<img src="static/images/edit1.png">
-			<span class="comments">发表帖子</span>
+			<span class="comments">我的帖子</span>
 			<span class="more">&gt</span>	
 		</li>
 		<li class="u-detail">
@@ -61,7 +61,11 @@
 			<span class="comments">下载</span>
 			<span class="more">&gt</span>	
 		</li>
-		
+		<!-- <li class="u-detail">
+			<img src="static/images/out.png">
+			<span class="comments">退出</span>
+			<span class="more">&gt</span>	
+		</li> -->
 		
 	</ul>
 	<v-footer></v-footer>
@@ -76,10 +80,10 @@
 	}
 </script>
 <style>
-	body{
+	/*body{
 		background:rgba(238, 238, 238, 0.55);
 
-	}
+	}*/
 	/*#person{
 		background: #eee;
 	}*/
@@ -118,6 +122,9 @@
 		right: 0.9rem;
 	}
 		/*person结束*/
+	#person .u-content{
+		margin-bottom: 1.2rem;
+	}
 	#person .u-detail{
 		width: 100%;
 		height: 1rem;

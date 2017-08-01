@@ -2,9 +2,9 @@
 	<div id="header">
 		<!-- <router-link to = '/first'> -->
 			<ul class='list'>
-				<li class="active"><router-link to = '/header/first'>首页</router-link></li>
-				<li><router-link to = '/header/focus'>关注</router-link></li>
-				<li><router-link to = '/header/program'>栏目</router-link></li>
+				<li class="active" @click='addClass'><router-link to = '/header/first'>首页</router-link></li>
+				<li @click='addClass'><router-link to = '/header/focus'>关注</router-link></li>
+				<li @click='addClass'><router-link to = '/header/program'>栏目</router-link></li>
 			</ul>
 		<!-- </router-link> -->
 		<router-view></router-view>
@@ -22,8 +22,7 @@
 	  mounted:function() {
 	  	var $list=$('.list li');
 	  	$list.on('click',function(){
-	  		$list.siblings().removeClass('active');
-	    		$(this).addClass('active');
+	    		$(this).addClass('active').siblings().removeClass('active');
 
 	  	})
 	  }
@@ -44,9 +43,9 @@
 	#header{
 		background: #eee;
 		width: 100%; 
-    position: fixed;
-    top: 0;
-    left: 0;
+    	position: fixed;
+    	top: 0;
+    	left: 0;
 
 	}
 	#header .list{

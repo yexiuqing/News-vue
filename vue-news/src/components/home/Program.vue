@@ -37,9 +37,9 @@
 	}
 </script>
 <style>
-	body{
+	/*body{
 		background: #eee;
-	}
+	}*/
 	#program{
 		margin-top: 0.6rem;
 		margin-bottom:0.8rem;

@@ -78,6 +78,7 @@
 	.carousel ul{
 		overflow: hidden;
 		/*height: 1.75rem;*/
+		
 		width: 25.6rem
 	}
 	.carousel-content li{

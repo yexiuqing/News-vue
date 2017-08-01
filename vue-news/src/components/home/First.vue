@@ -24,7 +24,7 @@
 	import Axios from 'axios'
 	import header from './Header'
 	import footer from '../Footer' 
-
+	// import $ from ''
 	export default{
 		components:{
 	    	'v-header':header,
@@ -46,10 +46,9 @@
 				// console.log(this.firstData);
 			});
 		},
-		// methods:{
-  //   		changeTitle(name){
-  //       	this.$store.dispatch('changeTitle',[name,'<']);
-  //   	}
+		method(){
+			
+		}
   }
 
 
@@ -59,12 +58,13 @@
 		margin-top: 0.6rem;
 		margin-bottom:0.8rem;
 		/*text-align: center;*/
-		background: #eee;
+		/*background: #eee;*/
 	}
 	.wrapper{
 		/*width: 85%;*/
 		margin-left: .4rem;
 		margin-right: .4rem;
+		margin-bottom: 1.2rem;
 
 	}
 	.content h2{
@@ -75,19 +75,20 @@
 	}
 	.content p{
 		max-height: 1.8rem;
-    margin-top: 0.05rem;
-    overflow: hidden;
-    font-size: 0.2rem;
+    	margin-top: 0.05rem;
+    	overflow: hidden;
+    	font-size: 0.2rem;
 	}
 	.content li{
 		/*margin-bottom: 10px;*/
 		padding: 0.2rem 0;
-		border-bottom: 1px dashed #ccc;
+		border-bottom: 2px dashed #ccc;
 		color: #494d4d;
 
 	}
 	.carousel{
 		margin-bottom: 0.2rem;
+		overflow: hidden;
 
 	}
 	.carousel ul{
