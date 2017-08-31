@@ -2,7 +2,7 @@
 	<div id="reg">
 		<div class="nav">
 			<span onclick="history.go(-1)">&lt</span>
-			<span class='register'>注册</span>	
+			<span class='register'>注册</span>
 		</div>
 		<ul class="infor">
 			<li class="info-list">
@@ -35,7 +35,7 @@ import Axios from "axios";
             tel:"",
             pass:"",
             repass:""
-           
+
        }
 		},
 		methods:{
@@ -45,7 +45,7 @@ import Axios from "axios";
 		      var pass=this.pass;
 		      var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
 		      var regex = /^[a-zA-Z0-9]{6,20}$/;
-		     
+
 		        this.insert_user();
 		      	this.$router.push("/user");
 		    },
@@ -61,12 +61,13 @@ import Axios from "axios";
 		        console.log(res.data);
 		      }).catch((error)=>{
 		          console.log(error);
+
 		      });
 		    },
 		}
-		
 
-	}	
+
+	}
 </script>
 <style type="text/css">
 	body{
@@ -94,7 +95,7 @@ import Axios from "axios";
 		margin-top: .5rem;
 		margin-left: 2.3rem;
 		margin-bottom: .2rem;
-		
+
 	}
 	#reg .info-list .logo{
 		margin-left: 0.3rem;
@@ -136,7 +137,7 @@ import Axios from "axios";
 
 
 
-	
+
 
 
 

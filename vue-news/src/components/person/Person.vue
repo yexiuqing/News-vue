@@ -5,7 +5,7 @@
 		<!-- <div class="name-level" > -->
 		<span class="nickname">游客</span></router-link>
 			<!-- <img class="level" src="static/images/xin.png"> -->
-			
+
 		<!-- </div> -->
 		<!-- <span class="u-set">&gt</span> -->
 		<router-link to='/set'><img class="setting" src="static/images/setting.png"></router-link>
@@ -34,39 +34,39 @@
 		<li class="u-detail">
 			<img src="static/images/message.png">
 			<span class="comments">评论</span>
-			<span class="more">&gt</span>	
+			<span class="more">&gt</span>
 		</li>
 		<li class="u-detail">
 			<img src="static/images/edit1.png">
 			<span class="comments">我的帖子</span>
-			<span class="more">&gt</span>	
+			<span class="more">&gt</span>
 		</li>
 		<li class="u-detail">
 			<img src="static/images/shoucang.png">
 			<span class="comments">收藏帖子</span>
-			<span class="more">&gt</span>	
+			<span class="more">&gt</span>
 		</li>
 		<li class="u-detail">
 			<img src="static/images/shoucang_1.png">
 			<span class="comments">收藏话题</span>
-			<span class="more">&gt</span>	
+			<span class="more">&gt</span>
 		</li>
 		<li class="u-detail">
 			<img src="static/images/sixin.png">
 			<span class="comments">私信</span>
-			<span class="more">&gt</span>	
+			<span class="more">&gt</span>
 		</li>
 		<li class="u-detail">
 			<img src="static/images/xiazai.png">
 			<span class="comments">下载</span>
-			<span class="more">&gt</span>	
+			<span class="more">&gt</span>
 		</li>
 		<!-- <li class="u-detail">
 			<img src="static/images/out.png">
 			<span class="comments">退出</span>
-			<span class="more">&gt</span>	
+			<span class="more">&gt</span>
 		</li> -->
-		
+
 	</ul>
 	<v-footer></v-footer>
 </div>
@@ -100,6 +100,7 @@
 		width: 1.5rem;
 		float: left;
 		margin-left: 0.4rem;
+
 		margin-top: 0.1rem;
 
 	}
@@ -132,10 +133,10 @@
 		border-bottom: 2px solid rgba(0,0,0,0.1);
 	}
 	#person .u-score{
-		height: 1rem;	
+		height: 1rem;
 		border-bottom: 3px solid rgba(0,0,0,0.1);
 	}
-	
+
 	#person .u-score li{
 		float: left;
 		width: 25%;
