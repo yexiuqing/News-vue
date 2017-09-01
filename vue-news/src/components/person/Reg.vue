@@ -31,7 +31,7 @@
 import Axios from "axios";
 	export default{
 		data(){
-			 return {
+			 return {x
             tel:"",
             pass:"",
             repass:""
@@ -43,6 +43,7 @@ import Axios from "axios";
 		      // var name=this.name;
 		      var tel=this.tel;
 		      var pass=this.pass;
+
 		      var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
 		      var regex = /^[a-zA-Z0-9]{6,20}$/;
 
