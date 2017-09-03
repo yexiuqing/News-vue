@@ -3,7 +3,7 @@
 		<div class="nav">
 			<span onclick="history.go(-1)">&lt</span>
 			<span>使用学号登录</span>
-			<span class='reg'><router-link to="/reg">注册</router-link></span>	
+			<span class='reg'><router-link to="/reg">注册</router-link></span>
 		</div>
 		<ul class="login">
 			<li class="login-list">
@@ -34,18 +34,21 @@ export default {
 	      // show:false
 	    }
 	  },
-	// method:function goBack(){ 
- //    	window.history.go(-1); 
+	// method:function goBack(){
+ //    	window.history.go(-1);
 	// }
 }
-	 
+
+
 </script>
 <style type="text/css">
 	body{
+
 		background: #fff;
 	}
 	#information{
 		font-size: 0.3rem;
+
 	}
 	#information .nav{
 		background: rgba(0,0,0,0.7);
@@ -75,7 +78,7 @@ export default {
 		margin-top: .5rem;
 		margin-left: 2.3rem;
 		margin-bottom: .2rem;
-		
+
 	}
 	#information .login-list .logo{
 		margin-left: 0.3rem;
@@ -92,7 +95,7 @@ export default {
 		margin-left: .65rem;
 		margin-top: .3rem;
 		outline: none;
-	
+
 	}
 	#information .login-button{
 		background: #9ec09f;

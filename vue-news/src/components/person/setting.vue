@@ -1,5 +1,5 @@
 <template>
-	<div id="setting">
+	<div id="se
 		<div class="nav">
 			<span onclick="history.go(-1)">&lt</span>
 			<span>设置</span>
@@ -11,9 +11,11 @@
 			</li>
 			<li class="sets">
 				<span class="left">修改邮箱</span>
+
 				<span class="right">&nbsp;&nbsp;&nbsp;&gt</span>
 			</li>
 			<li class="sets">
+
 				<span class="left">社交账号绑定</span>
 				<span class="right">&nbsp;&nbsp;&nbsp;&gt</span>
 			</li>
@@ -45,11 +47,11 @@ export default {
 	      // show:false
 	    }
 	  },
-	// method:function goBack(){ 
- //    	window.history.go(-1); 
+	// method:function goBack(){
+ //    	window.history.go(-1);
 	// }
 }
-	 
+
 </script>
 <style type="text/css">
 	#setting{
@@ -86,6 +88,6 @@ export default {
 	#setting .sets .right{
 		margin-right: 0.5rem;
 		float: right;
-	
+
 	}
 </style>
