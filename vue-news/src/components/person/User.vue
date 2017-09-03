@@ -51,6 +51,7 @@ export default {
 
 	}
 	#information .nav{
+
 		background: rgba(0,0,0,0.7);
 		height: 1rem;
 		width: 100%;
