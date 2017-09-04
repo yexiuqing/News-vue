@@ -56,6 +56,7 @@ export default {
 		height: 1rem;
 		width: 100%;
 		color: #fff;
+
 		line-height: 1rem;
 	}
 	#information .nav span{
