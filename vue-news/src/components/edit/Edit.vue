@@ -3,10 +3,10 @@
 		<div class="express">
 			<input type="text" name="title"  placeholder="文章标题">
 			<textarea class="artical" placeholder="文章内容"></textarea>
-			<div class="button" >发表</div>
+			<div class="button" >发表文章、评论</div>
 		</div>
 		<v-footer></v-footer>
-		
+
 	</div>
 </template>
 <script type="text/javascript">
